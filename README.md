@@ -3,7 +3,9 @@ Producer microservice will publish the event message to queue and Consumer will 
 
 Pre-requisite :
 JDK 11 or JDK 8
+
 Maven
+
 Active MQ
 
 
