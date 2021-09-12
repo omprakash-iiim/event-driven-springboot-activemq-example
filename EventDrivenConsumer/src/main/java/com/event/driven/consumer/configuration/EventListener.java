@@ -14,7 +14,7 @@ public class EventListener {
 
     @JmsListener(destination = "event-queue")
     public void listener(String message){
-        logger.info("Message received {} ", message);
+        logger.info("Event Type received", message);
     }
 	
 }
